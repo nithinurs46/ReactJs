@@ -10,7 +10,7 @@ const isEmail = (value) => value.includes('@');
 const passwordVal = (value) => isNotEmpty && value.length>=8;
 
 const LoginComponent =(props)=>{
-  const apiUrl = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDEX3xFQDVxcHD55udcGFLnYeVcpcSOEjU';
+  const apiUrl = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=<ENTER_KEY_HERE>';
   const [isLoading, setIsLoading] = useState(false);
   const {
     value: enteredUserName,
