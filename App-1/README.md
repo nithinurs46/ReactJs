@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+Reactjs app making use of google firebase authentication and real-time database for storing data. On login, displays news retrieved from NewsApi, there is an option to search for movies from OMDB movies api and another section which displays star wars movies. There another section which displays ISRO related data in table format.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
