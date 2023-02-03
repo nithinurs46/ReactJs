@@ -1,4 +1,4 @@
-const FIREBASE_DOMAIN = 'https://todo-d2942.firebaseio.com';
+const FIREBASE_DOMAIN = '<ENTER_FIREBASE_URL_HERE>';
 
 export async function getAllTasks() {
     const response = await fetch(`${FIREBASE_DOMAIN}/tasks.json`);

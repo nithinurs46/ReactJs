@@ -9,7 +9,7 @@ import { Row } from "react-bootstrap";
 import Search from "../Layout/Search";
 
 const News = () => {
-  const url = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=39554764832b4c7785272937f1256688';
+  const url = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=<ENTER_KEY_HERE>';
   const [apiUrl, setApiUrl] = useState(url);
   const { sendRequest, status, data, error } = useHttp(getData, true);
   const [searchText, setSearchText] = useState('');
