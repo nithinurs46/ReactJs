@@ -1,0 +1,24 @@
+{
+  "signup": [
+    {
+      "email": "one1@yahoo.com",
+      "password": "9893548125",
+      "id": 1
+    },
+    {
+      "email": "two@yahoo.com",
+      "password": "9893548125",
+      "id": 2
+    },
+    {
+      "email": "one@yahoo.com",
+      "password": "9893548125",
+      "id": 3
+    },
+    {
+      "email": "one11@gmail.com",
+      "password": "00000000000000000",
+      "id": 4
+    }
+  ]
+}
