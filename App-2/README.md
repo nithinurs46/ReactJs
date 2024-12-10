@@ -8,18 +8,29 @@ npm install -g json-server
 users.json, login.json and signup.json are the 3 backend servers
 
 Run the command - 
+
 json-server --watch users.json
+
 json-server --watch login.json
+
 json-server --watch signup.json
 
+
 In package.json, provide different port for running above backend servers. Add below lines under scripts -
+
 "server": "json-server --watch src/server/users.json --port 5000",
+
 "server1": "json-server --watch src/server/signup.json --port 5001",
+
 "server2": "json-server --watch src/server/login.json --port 5002"
 
+
 In different terminals, start below servers and application - 
+
 npm run server
+
 npm run server1
+
 npm run server2
 
 npm start
